@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body onload="showQuestion(0)">
+<div class="container">
+  <div class="row">
+    <div class="col-md-1">
+  
+    </div>
+    <div class="col-md-10">
+       <div class="card-header">
+         <div class="d-inline-block" id="top"></div>
+         <div class="d-inline-block float-right">time</div>
+       </div>
+       <div class="card-body">
+         <h5 id="questionElement" class="card-title ">Question</h5>
+          <p class="card-text optionElement" onclick="activeClass(this)" >1</p>
+          <p class="card-text optionElement" onclick="activeClass(this)" >2</p>
+          <p class="card-text optionElement" onclick="activeClass(this)" >3</p>
+          <p class="card-text optionElement" onclick="activeClass(this)" >4</p>
+       </div>
+       <button onclick="nextQuestion()">next</button>
+       <button onclick="finish()" >Finish</button>
+    </div>
+    <div class="col-md-1">
+
+    </div>
+  </div>
+</div>
+
+ 
+
+
+
+</body>
+<script src="app.js"></script>
+</html>

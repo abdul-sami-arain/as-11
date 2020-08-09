@@ -1,0 +1,12 @@
+body{
+    font-family: sans-serif !important;
+    background-image: linear-gradient(to right, #E878DA , #58AAC6) !important;
+}
+
+p:hover{
+    cursor: pointer !important;
+    background-color: red !important;
+}
+.active{
+    background-color: red;
+}
